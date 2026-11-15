@@ -1,0 +1,153 @@
+{
+    "tipo_documento": "Póliza de automóvil",
+    "paginas_analizadas": 6,
+    "resultados": [
+        {
+            "pagina": "poliza_pag1_anonimizada_final.png",
+            "datos": {
+                "aseguradora": "helloauto",
+                "producto": "CONDICIONES PARTICULARES",
+                "vehiculo": {
+                    "marca": null,
+                    "modelo": null
+                },
+                "coberturas": [],
+                "exclusiones": [],
+                "fecha_inicio": null,
+                "fecha_fin": null,
+                "prima_neta": null,
+                "impuestos": null,
+                "prima_total": null
+            },
+            "segundos": 65
+        },
+        {
+            "pagina": "poliza_pag2_anonimizada_final.png",
+            "datos": {
+                "aseguradora": null,
+                "producto": "Hello Auto Smart - Seguro de Terceros Ampliado",
+                "vehiculo": {
+                    "marca": "BMW",
+                    "modelo": "SERIE 5 BE"
+                },
+                "coberturas": [
+                    {
+                        "tipo": "Responsabilidad Civil Obligatoria",
+                        "limites": {
+                            "daños materiales": "Hasta 15 millones de euros",
+                            "daños corporales": "Hasta 70 millones de euros"
+                        }
+                    },
+                    {
+                        "tipo": "Responsabilidad Civil Voluntaria",
+                        "limites": "Hasta 50 millones de euros por encima de la Responsabilidad Civil Obligatoria"
+                    }
+                ],
+                "exclusiones": [],
+                "fecha_inicio": null,
+                "fecha_fin": null,
+                "prima_neta": null,
+                "impuestos": null,
+                "prima_total": null
+            },
+            "segundos": 77
+        },
+        {
+            "pagina": "poliza_pag3_anonimizada_final.png",
+            "datos": {
+                "aseguradora": null,
+                "producto": null,
+                "vehiculo": {
+                    "marca": null,
+                    "modelo": null
+                },
+                "coberturas": [
+                    {
+                        "tipo": "Fallecimiento/incapacidad permanente",
+                        "importe": "25.000,00€"
+                    },
+                    {
+                        "tipo": "Asistencia Sanitaria",
+                        "importe": "Ilimitada en centros concertados, en el resto 3000€"
+                    }
+                ],
+                "exclusiones": [
+                    {
+                        "tipo": "Robo",
+                        "objetos": [
+                            "Vehículo",
+                            "Equipaje",
+                            "Dispositivo de retención infantil"
+                        ]
+                    },
+                    {
+                        "tipo": "Incendio",
+                        "objetos": [
+                            "Vehículo",
+                            "Equipaje",
+                            "Dispositivo de retención infantil"
+                        ]
+                    },
+                    {
+                        "tipo": "Lunas",
+                        "objetos": [
+                            "Su reposición"
+                        ]
+                    }
+                ],
+                "fecha_inicio": "2025-08-03",
+                "fecha_fin": "2026-08-02",
+                "prima_neta": "518.01 Euros",
+                "impuestos": "41.44 Euros",
+                "prima_total": "567.31 Euros"
+            },
+            "segundos": 83
+        },
+        {
+            "pagina": "poliza_pag4_anonimizada_final.png",
+            "datos": {
+                "aseguradora": "HELLO INSURANCE GROUP COMPAÑÍA DE SEGUROS, S.A.",
+                "producto": "Póliza de seguro automóvil",
+                "vehiculo": {
+                    "marca": null,
+                    "modelo": null
+                },
+                "coberturas": [],
+                "exclusiones": [],
+                "fecha_inicio": null,
+                "fecha_fin": null,
+                "prima_neta": null,
+                "impuestos": null,
+                "prima_total": null
+            },
+            "segundos": 70
+        },
+        {
+            "pagina": "poliza_pag5_anonimizada_final.png",
+            "datos": {
+                "error": "el modelo no devolvio un JSON valido",
+                "crudo": "{\n  \"aseguradora\": null,\n  \"producto\": null,\n  \"vehiculo\": {\n    \"marca\": null,\n    \"modelo\": null\n  },\n  \"coberturas\": [],\n  \"exclusiones\": [\n    \"1. Causados intencionadamente por el Tomador, por el Asegurado o por el conductor, salvo que el daño, al vehículo o mediante su conducción haya sido causado en estado de necesidad.\",\n    \"2. Producidos por acontecimientos extraordinarios cubiertos por el Consorcio de Compensación de Seguros, tales como inundaciones, terremotos y catástrofes naturales, conforme a lo dispuesto en la Sección Quinta de estas Condiciones Generales.\",\n    \"3. Producidos por modificación de la estructura atómica de la materia, o sus efectos térmicos, radiactivos y otros, o de aceleración artificial de partículas atómicas, tales como explosiones nucleares o contaminaciones radiactivas.\",\n    \"4. Producidos cuando el Conductor se encuentre en estado de embriaguez o bajo la influencia de drogas, tóxicos o estupefacientes. Se considera que hay embriaguez cuando:\",\n    \"a. El grado de alcoholemia sea superior a las tasas legalmente permitidas.\",\n    \"b. El conductor sea condenado por conducción en estado de embriaguez.\",\n    \"c. La existencia de sentencia firme que recoja esta circunstancia como concrente del siniestro.\",\n    \"5. Producidos con ocasión de ser conducido el vehículo por una persona que carezca, esté privado o no tenga homologado el correspondiente permiso o licencia de conducción.\",\n    \"6. Cuando el conductor causante del siniestro sea condenado como autor del delito de «omisión del deber de socorro».\",\n    \"7. Producidos a un tercero con ocasión del Robo del vehículo, sin perjuicio de la indemnización que corresponda pagar al Consorcio de Compensación de Seguros.\",\n    \"8. Producidos por vehículos a motor cuando desempeñen labores industriales o agrícolas y no sean consecuencia directa de la circulación.\",\n    \"9. Producidos cuando la causa determinante del Accidente sea una infracción del Tomador, Asegurado o el conductor relativa a:\",\n    \"a. Requisitos y número de personas transportadas.\",\n    \"b. Peso, medida o forma de colocar la carga transportada.\",\n    \"10. Producidos cuando el vehículo:\",\n    \"a. Participe en apuestas o desafíos.\",\n    \"b. Participe en carreras o concursos o en las pruebas preparatorias para los mismos.\",\n    \"c. Se destine a un uso remunerado.\",\n    \"d. Se encuentre en el recinto de acceso restringido de puertos o aeropuertos.\",\n    \"11. Los siniestros o daños producidos con infracción de las obligaciones de orden técnico relativas"
+            },
+            "segundos": 121
+        },
+        {
+            "pagina": "poliza_pag6_anonimizada_final.png",
+            "datos": {
+                "aseguradora": "Hello Auto",
+                "producto": "póliza de seguro de automóvil",
+                "vehiculo": {
+                    "marca": null,
+                    "modelo": null
+                },
+                "coberturas": [],
+                "exclusiones": [],
+                "fecha_inicio": null,
+                "fecha_fin": null,
+                "prima_neta": null,
+                "impuestos": null,
+                "prima_total": null
+            },
+            "segundos": 306
+        }
+    ]
+}

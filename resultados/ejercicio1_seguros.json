@@ -1,0 +1,113 @@
+{
+    "ejercicio": "Ejercicio 1 - Visión multimodal aplicada a seguros",
+    "modelo_vision": "qwen2.5vl:3b",
+    "resultados": [
+        {
+            "imagen": "vehiculo_siniestro_anonimizado.png",
+            "tipo": "fotografia_siniestro",
+            "analisis": "1. **VEHÍCULO:**\n   - Marca: Volkswagen\n   - Modelo: Jetta\n   - Color: Azul\n   - Tipo de vehículo: Sedán\n\n2. **DAÑOS VISIBLES:**\n   - La parte trasera del vehículo está inclinada hacia la derecha, lo que sugiere que el vehículo ha sufrido un impacto en esa dirección.\n   - La parte superior del vehículo, específicamente la parte trasera, parece haber sufrido daños, posiblemente en la parte trasera del vehículo.\n   - No se pueden ver detalles específicos de los daños, pero se puede suponer que hay daños en la parte trasera del vehículo.\n\n3. **GRAVEDAD APARENTE:**\n   - Los daños parecen ser moderados. El vehículo no parece haber sufrido daños graves, pero sí hay daños significativos en la parte trasera.\n\n4. **LIMITACIONES:**\n   - No se puede determinar con certeza la causa exacta del accidente, ya que no se pueden ver detalles específicos de los daños.\n   - No se puede determinar con certeza la velocidad del vehículo al momento del accidente.\n   - No se puede determinar con certeza la dirección en la que se movía el vehículo al momento del accidente.",
+            "validacion": {
+                "resultado_obtenido": true,
+                "analisis_no_vacio": true,
+                "apartados_esperados": [
+                    "vehiculo",
+                    "danos_visibles",
+                    "gravedad_aparente",
+                    "limitaciones"
+                ],
+                "apartados_detectados": [
+                    "vehiculo",
+                    "danos_visibles",
+                    "gravedad_aparente",
+                    "limitaciones"
+                ],
+                "apartados_faltantes": [],
+                "estructura_correcta": true
+            },
+            "segundos": 82
+        },
+        {
+            "imagen": "poliza_pag3_anonimizada_final.png",
+            "tipo": "documento_poliza",
+            "analisis": {
+                "aseguradora": null,
+                "producto": null,
+                "vehiculo": {
+                    "marca": null,
+                    "modelo": null
+                },
+                "coberturas": [
+                    {
+                        "tipo": "Fallecimiento/incapacidad permanente",
+                        "importe": "25.000,00€"
+                    },
+                    {
+                        "tipo": "Asistencia Sanitaria",
+                        "importe": "Ilimitada en centros concertados, en el resto 3000€"
+                    }
+                ],
+                "exclusiones": [
+                    {
+                        "tipo": "Robo",
+                        "objetos": [
+                            "Vehículo",
+                            "Equipaje",
+                            "Dispositivo de retención infantil"
+                        ]
+                    },
+                    {
+                        "tipo": "Incendio",
+                        "objetos": [
+                            "Vehículo",
+                            "Equipaje",
+                            "Dispositivo de retención infantil"
+                        ]
+                    },
+                    {
+                        "tipo": "Lunas",
+                        "objetos": [
+                            "Su reposición"
+                        ]
+                    }
+                ],
+                "fecha_inicio": "2025-08-03",
+                "fecha_fin": "2026-08-02",
+                "prima_neta": "518.01 Euros",
+                "impuestos": "41.44 Euros",
+                "prima_total": "567.31 Euros"
+            },
+            "validacion": {
+                "estructura_correcta": true,
+                "campos_obligatorios": [
+                    "aseguradora",
+                    "producto",
+                    "vehiculo",
+                    "coberturas",
+                    "exclusiones",
+                    "fecha_inicio",
+                    "fecha_fin",
+                    "prima_neta",
+                    "impuestos",
+                    "prima_total"
+                ],
+                "campos_faltantes": [],
+                "campos_nulos": [
+                    "aseguradora",
+                    "producto",
+                    "vehiculo.marca",
+                    "vehiculo.modelo"
+                ],
+                "campos_vacios": [],
+                "datos_completos": false,
+                "comprobacion_importes": {
+                    "comprobacion_realizada": true,
+                    "prima_neta_mas_impuestos": "559.45",
+                    "prima_total_extraida": "567.31",
+                    "diferencia": "7.86",
+                    "coinciden": false
+                }
+            },
+            "segundos_extraccion_original": 83
+        }
+    ]
+}

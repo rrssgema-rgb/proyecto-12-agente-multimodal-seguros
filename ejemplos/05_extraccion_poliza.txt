@@ -1,0 +1,163 @@
+PS C:\Users\mail1\Desktop\Personal\MASTER\proyecto 12\research multimodal\multimodal-agent> .\.venv\Scripts\python.exe .\07_extraer_poliza.py
+Analizando poliza_pag1_anonimizada_final.png...
+Analizando poliza_pag2_anonimizada_final.png...
+Analizando poliza_pag3_anonimizada_final.png...
+Analizando poliza_pag4_anonimizada_final.png...
+Analizando poliza_pag5_anonimizada_final.png...
+Analizando poliza_pag6_anonimizada_final.png...
+
+Extracción terminada. Resultado guardado en: resultados\poliza_extraida.json
+PS C:\Users\mail1\Desktop\Personal\MASTER\proyecto 12\research multimodal\multimodal-agent> Get-Content .\resultados\poliza_extraida.json
+{
+    "tipo_documento": "PÃ³liza de automÃ³vil",
+    "paginas_analizadas": 6,
+    "resultados": [
+        {
+            "pagina": "poliza_pag1_anonimizada_final.png",
+            "datos": {
+                "aseguradora": "helloauto",
+                "producto": "CONDICIONES PARTICULARES",
+                "vehiculo": {
+                    "marca": null,
+                    "modelo": null
+                },
+                "coberturas": [],
+                "exclusiones": [],
+                "fecha_inicio": null,
+                "fecha_fin": null,
+                "prima_neta": null,
+                "impuestos": null,
+                "prima_total": null
+            },
+            "segundos": 65
+        },
+        {
+            "pagina": "poliza_pag2_anonimizada_final.png",
+            "datos": {
+                "aseguradora": null,
+                "producto": "Hello Auto Smart - Seguro de Terceros Ampliado",
+                "vehiculo": {
+                    "marca": "BMW",
+                    "modelo": "SERIE 5 BE"
+                },
+                "coberturas": [
+                    {
+                        "tipo": "Responsabilidad Civil Obligatoria",
+                        "limites": {
+                            "daÃ±os materiales": "Hasta 15 millones de euros",
+                            "daÃ±os corporales": "Hasta 70 millones de euros"
+                        }
+                    },
+                    {
+                        "tipo": "Responsabilidad Civil Voluntaria",
+                        "limites": "Hasta 50 millones de euros por encima de la Responsabilidad Civil Obligatoria"
+                    }
+                ],
+                "exclusiones": [],
+                "fecha_inicio": null,
+                "fecha_fin": null,
+                "prima_neta": null,
+                "impuestos": null,
+                "prima_total": null
+            },
+            "segundos": 77
+        },
+        {
+            "pagina": "poliza_pag3_anonimizada_final.png",
+            "datos": {
+                "aseguradora": null,
+                "producto": null,
+                "vehiculo": {
+                    "marca": null,
+                    "modelo": null
+                },
+                "coberturas": [
+                    {
+                        "tipo": "Fallecimiento/incapacidad permanente",
+                        "importe": "25.000,00â‚¬"
+                    },
+                    {
+                        "tipo": "Asistencia Sanitaria",
+                        "importe": "Ilimitada en centros concertados, en el resto 3000â‚¬"
+                    }
+                ],
+                "exclusiones": [
+                    {
+                        "tipo": "Robo",
+                        "objetos": [
+                            "VehÃculo",
+                            "Equipaje",
+                            "Dispositivo de retenciÃ³n infantil"
+                        ]
+                    },
+                    {
+                        "tipo": "Incendio",
+                        "objetos": [
+                            "VehÃculo",
+                            "Equipaje",
+                            "Dispositivo de retenciÃ³n infantil"
+                        ]
+                    },
+                    {
+                        "tipo": "Lunas",
+                        "objetos": [
+                            "Su reposiciÃ³n"
+                        ]
+                    }
+                ],
+                "fecha_inicio": "2025-08-03",
+                "fecha_fin": "2026-08-02",
+                "prima_neta": "518.01 Euros",
+                "impuestos": "41.44 Euros",
+                "prima_total": "567.31 Euros"
+            },
+            "segundos": 83
+        },
+        {
+            "pagina": "poliza_pag4_anonimizada_final.png",
+            "datos": {
+                "aseguradora": "HELLO INSURANCE GROUP COMPAÃ‘ÃA DE SEGUROS, S.A.",
+                "producto": "PÃ³liza de seguro automÃ³vil",
+                "vehiculo": {
+                    "marca": null,
+                    "modelo": null
+                },
+                "coberturas": [],
+                "exclusiones": [],
+                "fecha_inicio": null,
+                "fecha_fin": null,
+                "prima_neta": null,
+                "impuestos": null,
+                "prima_total": null
+            },
+            "segundos": 70
+        },
+        {
+            "pagina": "poliza_pag5_anonimizada_final.png",
+            "datos": {
+                "error": "el modelo no devolvio un JSON valido",
+                "crudo": "{\n  \"aseguradora\": null,\n  \"producto\": null,\n  \"vehiculo\": {\n    \"marca\": null,\n    \"modelo\": null\n  },\n  \"coberturas\": [],\n  \"exclusiones\": [\n    \"1. Causados intencionadamente por el Tomador, por el Asegurado o por el conductor, salvo que el daÃ±o, al vehÃculo o mediante su conducciÃ³n haya sido causado en estado de necesidad.\",\n    \"2. Producidos por acontecimientos extraordinarios cubiertos por el Consorcio de CompensaciÃ³n de Seguros, tales como inundaciones, terremotos y catÃ¡strofes naturales, conforme a lo dispuesto en la SecciÃ³n Quinta de estas Condiciones Generales.\",\n    \"3. Producidos por modificaciÃ³n de la estructura atÃ³mica de la materia, o sus efectos tÃ©rmicos, radiactivos y otros, o de aceleraciÃ³n artificial de partÃculas atÃ³micas, tales como explosiones nucleares o contaminaciones radiactivas.\",\n    \"4. Producidos cuando el Conductor se encuentre en estado de embriaguez o bajo la influencia de drogas, tÃ³xicos o estupefacientes. Se considera que hay embriaguez cuando:\",\n    \"a. El grado de alcoholemia sea superior a las tasas legalmente permitidas.\",\n    \"b. El conductor sea condenado por conducciÃ³n en estado de embriaguez.\",\n    \"c. La existencia de sentencia firme que recoja esta circunstancia como concrente del siniestro.\",\n    \"5. Producidos con ocasiÃ³n de ser conducido el vehÃculo por una persona que carezca, estÃ© privado o no tenga homologado el correspondiente permiso o licencia de conducciÃ³n.\",\n    \"6. Cuando el conductor causante del siniestro sea condenado como autor del delito de Â«omisiÃ³n del deber de socorroÂ».\",\n    \"7. Producidos a un tercero con ocasiÃ³n del Robo del vehÃculo, sin perjuicio de la indemnizaciÃ³n que corresponda pagar al Consorcio de CompensaciÃ³n de Seguros.\",\n    \"8. Producidos por vehÃculos a motor cuando desempeÃ±en labores industriales o agrÃcolas y no sean consecuencia directa de la circulaciÃ³n.\",\n    \"9. Producidos cuando la causa determinante del Accidente sea una infracciÃ³n del Tomador, Asegurado o el conductor relativa a:\",\n    \"a. Requisitos y nÃºmero de personas transportadas.\",\n    \"b. Peso, medida o forma de colocar la carga transportada.\",\n    \"10. Producidos cuando el vehÃculo:\",\n    \"a. Participe en apuestas o desafÃos.\",\n    \"b. Participe en carreras o concursos o en las pruebas preparatorias para los mismos.\",\n    \"c. Se destine a un uso remunerado.\",\n    \"d. Se encuentre en el recinto de acceso restringido de puertos o aeropuertos.\",\n    \"11. Los siniestros o daÃ±os producidos con infracciÃ³n de las obligaciones de orden tÃ©cnico relativas"
+            },
+            "segundos": 121
+        },
+        {
+            "pagina": "poliza_pag6_anonimizada_final.png",
+            "datos": {
+                "aseguradora": "Hello Auto",
+                "producto": "pÃ³liza de seguro de automÃ³vil",
+                "vehiculo": {
+                    "marca": null,
+                    "modelo": null
+                },
+                "coberturas": [],
+                "exclusiones": [],
+                "fecha_inicio": null,
+                "fecha_fin": null,
+                "prima_neta": null,
+                "impuestos": null,
+                "prima_total": null
+            },
+            "segundos": 306
+        }
+    ]
+}

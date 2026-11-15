@@ -1,0 +1,34 @@
+﻿.venv/
+.venv313/
+__pycache__/
+salidas/
+voces/
+
+# Material proporcionado por el profesor
+/soluciones/
+
+/PROMPTS.md
+/research_backup.py
+
+# Ejemplos originales del profesor
+/ejemplos/factura_papeleria.jpg
+/ejemplos/grafico_formacion.png
+/ejemplos/nota_voz_marta.wav
+/ejemplos/ticket_taxi.jpg
+
+# Material auxiliar del profesor
+/extras/
+
+# Diagramas originales del profesor
+/grafo_agente.png
+/grafo_research.png
+
+# Diagramas originales del profesor
+/grafo_agente.png
+/grafo_research.png
+
+# Scripts originales del profesor
+/01_vision.py
+/02_whisper.py
+/03_voz.py
+/04_deep_research.py

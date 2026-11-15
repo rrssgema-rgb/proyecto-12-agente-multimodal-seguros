@@ -1,0 +1,10 @@
+langgraph
+langchain-ollama
+ollama
+ddgs
+openai-whisper
+soundfile
+numpy
+pyttsx3
+piper-tts
+pillow
